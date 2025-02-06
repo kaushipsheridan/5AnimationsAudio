@@ -13,6 +13,16 @@
 		CEB1EB2F2D55586E00931CCD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EB2E2D55586E00931CCD /* Base */; };
 		CEB1EB312D55587000931CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EB302D55587000931CCD /* Assets.xcassets */; };
 		CEB1EB342D55587000931CCD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EB332D55587000931CCD /* Base */; };
+		CEB1EB522D5559EE00931CCD /* play.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EB4E2D5559EE00931CCD /* play.jpeg */; };
+		CEB1EB532D5559EE00931CCD /* gundam_seed_wallpaper_9-normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EB4F2D5559EE00931CCD /* gundam_seed_wallpaper_9-normal.jpg */; };
+		CEB1EB542D5559EE00931CCD /* about.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EB502D5559EE00931CCD /* about.jpeg */; };
+		CEB1EB552D5559EE00931CCD /* settings.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EB512D5559EE00931CCD /* settings.jpeg */; };
+		CEB1EB592D5559FA00931CCD /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EB562D5559FA00931CCD /* song2.mp3 */; };
+		CEB1EB5A2D5559FA00931CCD /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EB572D5559FA00931CCD /* song1.mp3 */; };
+		CEB1EB5B2D5559FA00931CCD /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB1EB582D5559FA00931CCD /* song3.mp3 */; };
+		CEB1EB5D2D555A5E00931CCD /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1EB5C2D555A5E00931CCD /* MusicViewController.swift */; };
+		CEB1EB602D555EEF00931CCD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB1EB5F2D555EEF00931CCD /* AVFoundation.framework */; };
+		CEB1EB622D555F1200931CCD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB1EB612D555F1200931CCD /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		CEB1EB302D55587000931CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB1EB332D55587000931CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB1EB352D55587000931CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB1EB4E2D5559EE00931CCD /* play.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = play.jpeg; sourceTree = "<group>"; };
+		CEB1EB4F2D5559EE00931CCD /* gundam_seed_wallpaper_9-normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gundam_seed_wallpaper_9-normal.jpg"; sourceTree = "<group>"; };
+		CEB1EB502D5559EE00931CCD /* about.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = about.jpeg; sourceTree = "<group>"; };
+		CEB1EB512D5559EE00931CCD /* settings.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = settings.jpeg; sourceTree = "<group>"; };
+		CEB1EB562D5559FA00931CCD /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		CEB1EB572D5559FA00931CCD /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		CEB1EB582D5559FA00931CCD /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		CEB1EB5C2D555A5E00931CCD /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		CEB1EB5F2D555EEF00931CCD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CEB1EB612D555F1200931CCD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB1EB622D555F1200931CCD /* QuartzCore.framework in Frameworks */,
+				CEB1EB602D555EEF00931CCD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +62,12 @@
 		CEB1EB1B2D55586E00931CCD = {
 			isa = PBXGroup;
 			children = (
+				CEB1EB3D2D5558C800931CCD /* Images */,
+				CEB1EB3C2D5558B900931CCD /* View Controllers */,
+				CEB1EB3B2D5558AC00931CCD /* Music */,
 				CEB1EB262D55586E00931CCD /* Wk5AnimationsAudio */,
 				CEB1EB252D55586E00931CCD /* Products */,
+				CEB1EB5E2D555EEF00931CCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +84,51 @@
 			children = (
 				CEB1EB272D55586E00931CCD /* AppDelegate.swift */,
 				CEB1EB292D55586E00931CCD /* SceneDelegate.swift */,
-				CEB1EB2B2D55586E00931CCD /* ViewController.swift */,
 				CEB1EB2D2D55586E00931CCD /* Main.storyboard */,
 				CEB1EB302D55587000931CCD /* Assets.xcassets */,
 				CEB1EB322D55587000931CCD /* LaunchScreen.storyboard */,
 				CEB1EB352D55587000931CCD /* Info.plist */,
 			);
 			path = Wk5AnimationsAudio;
+			sourceTree = "<group>";
+		};
+		CEB1EB3B2D5558AC00931CCD /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1EB572D5559FA00931CCD /* song1.mp3 */,
+				CEB1EB562D5559FA00931CCD /* song2.mp3 */,
+				CEB1EB582D5559FA00931CCD /* song3.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		CEB1EB3C2D5558B900931CCD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1EB2B2D55586E00931CCD /* ViewController.swift */,
+				CEB1EB5C2D555A5E00931CCD /* MusicViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CEB1EB3D2D5558C800931CCD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1EB502D5559EE00931CCD /* about.jpeg */,
+				CEB1EB4F2D5559EE00931CCD /* gundam_seed_wallpaper_9-normal.jpg */,
+				CEB1EB4E2D5559EE00931CCD /* play.jpeg */,
+				CEB1EB512D5559EE00931CCD /* settings.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CEB1EB5E2D555EEF00931CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1EB612D555F1200931CCD /* QuartzCore.framework */,
+				CEB1EB5F2D555EEF00931CCD /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +189,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB1EB592D5559FA00931CCD /* song2.mp3 in Resources */,
+				CEB1EB5A2D5559FA00931CCD /* song1.mp3 in Resources */,
+				CEB1EB532D5559EE00931CCD /* gundam_seed_wallpaper_9-normal.jpg in Resources */,
 				CEB1EB312D55587000931CCD /* Assets.xcassets in Resources */,
 				CEB1EB342D55587000931CCD /* Base in Resources */,
+				CEB1EB552D5559EE00931CCD /* settings.jpeg in Resources */,
+				CEB1EB542D5559EE00931CCD /* about.jpeg in Resources */,
+				CEB1EB5B2D5559FA00931CCD /* song3.mp3 in Resources */,
 				CEB1EB2F2D55586E00931CCD /* Base in Resources */,
+				CEB1EB522D5559EE00931CCD /* play.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB1EB5D2D555A5E00931CCD /* MusicViewController.swift in Sources */,
 				CEB1EB2C2D55586E00931CCD /* ViewController.swift in Sources */,
 				CEB1EB282D55586E00931CCD /* AppDelegate.swift in Sources */,
 				CEB1EB2A2D55586E00931CCD /* SceneDelegate.swift in Sources */,
